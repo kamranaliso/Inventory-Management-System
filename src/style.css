@@ -1,0 +1,146 @@
+.root{
+	-fx-background-color:#EBEFF2; 
+}
+
+.SideNavBox{
+	-fx-background-color:#ffffff;
+}
+
+.Logo{
+	-fx-font-weight:bold;
+	-fx-font-size:20;
+	-fx-text-fill:#096FC8;
+	-fx-padding:50px 50px 30px 50px;
+}
+.navBtn{
+	-fx-background-color:transparent;
+	-fx-font-size:14;
+	-fx-text-fill:#000000;
+	-fx-padding:15px 50px;
+}
+.navBtn:hover{
+	-fx-font-weight:bold;
+	-fx-background-color:transparent;
+	-fx-font-size:14;
+	-fx-text-fill:#000000;
+	-fx-padding:15px 50px;
+}
+
+.searchBox{
+	-fx-background-color:#ffffff;
+	-fx-padding:5px 10px 5px 20px;
+	-fx-background-radius:5px;
+}
+
+.searchbtn{
+	-fx-background-color:#096FC8;
+	-fx-text-fill:#ffffff;
+}
+
+.text-field{
+	-fx-background-color:#ffffff;
+	-fx-background-radius:5px;
+	-fx-padding:10px;
+}
+
+.combo-box{
+	-fx-background-color:#ffffff;
+	-fx-background-radius:5px;
+	-fx-padding:5px;
+}
+
+.text-field1{
+	-fx-background-color:#EBEFF2;
+	-fx-background-radius:5px;
+	-fx-padding:10px;
+}
+
+.addproductbtn{
+	-fx-background-color:#096FC8;
+	-fx-text-fill:#fff;
+	-fx-font-weight:bold;
+	-fx-background-radius:5px;
+	-fx-padding:10px;
+}
+.addproductbtn:hover{
+	-fx-background-color:#096FC8;
+	-fx-font-weight:bold;
+	-fx-text-fill:#fff;
+	-fx-background-radius:5px;
+	-fx-padding:10px;
+}
+
+
+.dltproductbtn{
+	-fx-background-color:#ED553B;
+	-fx-text-fill:#fff;
+	-fx-font-weight:bold;
+	-fx-background-radius:5px;
+	-fx-padding:10px;
+}
+
+.heading{
+	-fx-font-weight:bold;
+	-fx-font-size:20;
+	-fx-text-fill:#096FC8;
+	-fx-padding:0px 0 10px 0;
+}
+
+.errortxt{
+	-fx-text-fill:red;
+}
+
+.headingBlack{
+	-fx-font-weight:bold;
+	-fx-font-size:25;
+	-fx-text-fill:#000;
+	-fx-padding:0px 0 10px 0;
+}
+
+.subheading{
+	-fx-font-weight:bold;
+	-fx-font-size:15;
+	-fx-text-fill:#000;
+	-fx-padding:0px 0 10px 0;
+}
+
+.whitebgBox{
+	-fx-background-color:#ffffff;
+	-fx-padding:20px;
+	-fx-background-radius:5px;
+}
+
+
+
+.table-view{
+   	-fx-background-color: white;
+   	-fx-background-radius:5px;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+
+	-fx-border-width:0 0 3px 0 ;
+	-fx-background-radius:5px;
+    -fx-border-color:#EBEFF2;
+    -fx-color:white;
+    -fx-padding:10px 20px;
+    -fx-background-color:white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-background-radius:5px;
+}
+
+.table-view .table-cell{
+	-fx-padding:10px 20px;
+	-fx-background-radius:5px;
+}
+.table-row-cell:selected {
+    -fx-background-color: #096FC8;
+    -fx-background-radius: 5px;
+}
